@@ -14,8 +14,11 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(
   cors({
-    origin:
-      "https://sipeka-frontend.kindbeach-9a9c21e4.southeastasia.azurecontainerapps.io",
+    origin: function (origin, callback) {
+      console.log("Request masuk dari origin:", origin);
+      // Kasih izin sementara (true) ke semua origin buat nge-test doang
+      callback(null, true);
+    },
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "Accept"],
