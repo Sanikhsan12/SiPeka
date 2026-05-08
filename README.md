@@ -4,9 +4,9 @@
 
 ---
 
-<a id="bahasa-indonesia"></a>
+`<a id="bahasa-indonesia"></a>`
 
-## 🇮🇩 Bahasa Indonesiaa
+## 🇮🇩 Bahasa Indonesia
 
 **Si Peka (Sistem Pelaporan Masyarakat)** adalah aplikasi web _full-stack_ interaktif yang dirancang untuk memudahkan warga dalam melaporkan keluhan, masalah infrastruktur, lingkungan, maupun keamanan kepada instansi terkait secara transparan dan efisien.
 
@@ -54,7 +54,7 @@ SiPeka/
 
 ---
 
-<a id="english"></a>
+`<a id="english"></a>`
 
 ## 🇬🇧 English
 
@@ -104,7 +104,7 @@ SiPeka/
 
 ---
 
-<a id="日本語"></a>
+`<a id="日本語"></a>`
 
 ## 🇯🇵 日本語 (Japanese)
 
