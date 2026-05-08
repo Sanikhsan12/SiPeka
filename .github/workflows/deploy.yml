@@ -3,7 +3,7 @@ name: Deploy to Azure Container Apps
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   REGISTRY_NAME: myacr.azurecr.io
@@ -13,7 +13,7 @@ env:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
