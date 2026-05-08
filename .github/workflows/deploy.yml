@@ -46,12 +46,12 @@ jobs:
         uses: azure/container-apps-deploy-action@v1
         with:
           imageToDeploy: ${{ env.REGISTRY_NAME }}/${{ env.BACKEND_IMAGE_NAME }}:${{ github.sha }}
-          containerAppName: sipeka-backend-app
+          containerAppName: sipeka-backend
           resourceGroup: CCUTS2
 
       - name: Deploy Frontend to Azure Container Apps
         uses: azure/container-apps-deploy-action@v1
         with:
           imageToDeploy: ${{ env.REGISTRY_NAME }}/${{ env.FRONTEND_IMAGE_NAME }}:${{ github.sha }}
-          containerAppName: sipeka-frontend-app
+          containerAppName: sipeka-frontend
           resourceGroup: CCUTS2
