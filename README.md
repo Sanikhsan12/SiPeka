@@ -16,6 +16,21 @@
 * **Mode Tema Adaptif (Dark/Light Mode)**: Antarmuka yang mulus dan nyaman di mata dengan fitur penyimpanan tema.
 * **Deployment Ready**: Terintegrasi penuh dengan Docker (`docker-compose`) serta menggunakan arsitektur penyimpanan file hibrida (Penyimpanan Lokal / Azure Blob Storage).
 
+### 📁 Struktur Folder
+```text
+SiPeka/
+├── backend/            # Backend server (Node.js & Express)
+│   ├── prisma/         # Skema database & migrasi Prisma ORM
+│   ├── src/            # Kode sumber backend (controllers, routes, dll)
+│   └── Dockerfile      # Konfigurasi Docker untuk backend
+├── frontend/           # Frontend web (React, Vite, Tailwind CSS)
+│   ├── public/         # Aset publik statis
+│   ├── src/            # Kode sumber frontend (components, pages, dll)
+│   ├── nginx.conf      # Konfigurasi Nginx
+│   └── Dockerfile      # Konfigurasi Docker untuk frontend
+└── docker-compose.yml  # Orkestrasi Docker
+```
+
 ### 🚀 Teknologi yang Digunakan
 * **Frontend**: React (Vite), Tailwind CSS v3, React Router DOM, Lucide Icons.
 * **Backend**: Node.js (Express), JavaScript ES Modules, Multer (Upload File), JWT (Authentication).
@@ -46,6 +61,21 @@
 * **Adaptive Theme Mode (Dark/Light Mode)**: A smooth, eye-friendly interface with saved theme preferences.
 * **Deployment Ready**: Fully integrated with Docker (`docker-compose`) and features a hybrid file storage architecture (Local Storage / Azure Blob Storage).
 
+### 📁 Folder Structure
+```text
+SiPeka/
+├── backend/            # Node.js & Express backend server
+│   ├── prisma/         # Prisma ORM database schema & migrations
+│   ├── src/            # Backend source code (controllers, routes, etc.)
+│   └── Dockerfile      # Backend Docker configuration
+├── frontend/           # React frontend (Vite, Tailwind CSS)
+│   ├── public/         # Static public assets
+│   ├── src/            # Frontend source code (components, pages, etc.)
+│   ├── nginx.conf      # Nginx configuration
+│   └── Dockerfile      # Frontend Docker configuration
+└── docker-compose.yml  # Docker orchestration
+```
+
 ### 🚀 Technologies Used
 * **Frontend**: React (Vite), Tailwind CSS v3, React Router DOM, Lucide Icons.
 * **Backend**: Node.js (Express), JavaScript ES Modules, Multer (File Upload), JWT (Authentication).
@@ -75,6 +105,21 @@
 * **フィルタリングと検索**: 管理者は、カテゴリ（インフラ、セキュリティ、環境など）やステータスに基づいて、何千もの報告をフィルタリングできます。
 * **適応型テーマモード (ダーク/ライトモード)**: テーマ設定を保存できる、スムーズで目に優しいインターフェース。
 * **デプロイ準備完了**: Docker (`docker-compose`) と完全に統合されており、ハイブリッドファイルストレージアーキテクチャ（ローカルストレージ / Azure Blob Storage）を備えています。
+
+### 📁 フォルダ構成
+```text
+SiPeka/
+├── backend/            # Node.js & Express バックエンドサーバー
+│   ├── prisma/         # Prisma ORM データベーススキーマとマイグレーション
+│   ├── src/            # バックエンドのソースコード（コントローラー、ルートなど）
+│   └── Dockerfile      # バックエンドのDocker設定
+├── frontend/           # React フロントエンド（Vite, Tailwind CSS）
+│   ├── public/         # 静的パブリックアセット
+│   ├── src/            # フロントエンドのソースコード（コンポーネント、ページなど）
+│   ├── nginx.conf      # Nginx の設定
+│   └── Dockerfile      # フロントエンドのDocker設定
+└── docker-compose.yml  # Dockerオーケストレーション
+```
 
 ### 🚀 使用技術
 * **フロントエンド**: React (Vite), Tailwind CSS v3, React Router DOM, Lucide Icons.
